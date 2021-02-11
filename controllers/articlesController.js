@@ -12,3 +12,6 @@ exports.getSingleArticlePage = async (req,res) => {
     //console.log(articleSingle[0].titre);
     res.render('articleSingle', {article: articleSingle[0]})
 }
+
+
+
